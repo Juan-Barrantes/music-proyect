@@ -41,6 +41,7 @@ main aside {
 main aside ul{
     margin: 0px;
     padding: 0px;
+    
 }
 main aside ul li{
     list-style: none;
@@ -55,3 +56,10 @@ main aside ul li:hover{
     background-color: rgb(63, 60, 60);
     color: white;
 }
+main img{
+    width:2000px;
+    height: 296px;
+}
+
+
+
