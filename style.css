@@ -11,6 +11,7 @@ header div ul.navBar{
     display: flex;
     justify-content: center;
     background-color: rgba(68, 56, 56, 0.835);
+    border-radius: 8px;
     /* width:240px ; */
 }
 header div ul.navBar li{
@@ -22,10 +23,10 @@ header div ul a{
     color: whitesmoke;
 }
 header div ul a.home{
-    border-bottom: 5px solid orange;
+    border-bottom: 2px solid orange;
 }
 header div ul.navBar a:hover{
-    border-bottom: 5px solid orange;
+    border-bottom: 2px solid orange;
 }
 header div ul.navBar li a{
     text-decoration: none; 
@@ -35,8 +36,22 @@ main{
 }
 main aside {
     border: 1px solid red;
+    
+}
+main aside ul{
+    margin: 0px;
+    padding: 0px;
 }
 main aside ul li{
     list-style: none;
-    
+    margin: 10px;
+    border: 1px solid rgb(165, 165, 168);
+    background-color: aliceblue;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+main aside ul li:hover{
+    background-color: rgb(63, 60, 60);
+    color: white;
 }
