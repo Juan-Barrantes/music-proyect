@@ -1,0 +1,42 @@
+header{
+    border: 1PX solid;
+    
+}
+header div{
+    margin: auto;
+    width: max-content;
+
+}
+header div ul.navBar{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(68, 56, 56, 0.835);
+    /* width:240px ; */
+}
+header div ul.navBar li{
+    padding: 10px 10px 10px 10px;
+    list-style: none;
+    /* display: block;  */
+}
+header div ul a{
+    color: whitesmoke;
+}
+header div ul a.home{
+    border-bottom: 5px solid orange;
+}
+header div ul.navBar a:hover{
+    border-bottom: 5px solid orange;
+}
+header div ul.navBar li a{
+    text-decoration: none; 
+}
+main{
+    display: flex;
+}
+main aside {
+    border: 1px solid red;
+}
+main aside ul li{
+    list-style: none;
+    
+}
