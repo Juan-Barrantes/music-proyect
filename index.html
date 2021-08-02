@@ -1,76 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="icon/brand.png" type="image/x-icon">
-</head>
-<body>
-    <header>
-        <div>
-            <ul class="navBar">
-               <li ><a class="home" href="">Home</a></li>
-               <li><a href="">About Us</a></li>
-               <li><a href="">My Count</a></li>
-               <li><a href="">Gallery</a></li>
-               <li><a href="">Foro</a></li>
-
-            </ul>
-        </div>
-    </header>
-    <main>
-        <aside>
-            <ul>
-                <li>Bands</li>
-                <li>Muscicians</li>
-                <li>Store</li>
-                <li>Events</li>
-                <li>Listen to</li>
-                <li>Playlist</li>
-                <li>Popular</li>
-            </ul>
-        </aside>
-        <img id="mainPicture" src="pictures/home/cerati-collage-portada-discos-1920.jpg" alt="">
-    </main>
+  <head>
     
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="icon/brand.png" type="image/x-icon" />
+    <!-- <script src="index.js"></script> -->
+    
+  </head>
+  <body>
+    <header>
+      <div>
+        <ul class="navBar">
+          <li><a class="home" href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">My Count</a></li>
+          <li><a href="">Gallery</a></li>
+          <li><a href="">Foro</a></li>
+        </ul>
+      </div>
+    </header>
 
+    <main>
+      <aside>
+        
+          <a href=""><h3 onmouseover ="menu1()" onmouseout="main()">Bands</h3></a>
+          <a href=""><h3 onmouseover ="menu2()"  onmouseout="main()">Muscicians</h3></a>
+          <a href=""><h3 onmouseover ="menu3()"  onmouseout="main()">Events</h3></a>
+          <a href=""><h3 onmouseover ="menu4()"  onmouseout="main()">Store</h3></a>
+          <a href=""><h3 onmouseover ="menu5()"  onmouseout="main()">Listen to</h3></a>
+          <a href=""><h3 onmouseover ="menu6()"  onmouseout="main()">Playlist</h3></a>
+          <a href=""><h3 onmouseover ="menu7()"  onmouseout="main()">Popular</h3></a>
+        
+      </aside>
+      <img 
+        id="mainPicture"  name="slider"
+        src="pictures/home/main.jpg"
+        alt=""
+      />
+    </main>
+    <section>
+      <div class="events">
+        <div>
+          <input type="text">
+          <img src="" alt="">
+        </div>
+      </div>
+      <div class="content"></div>
+      <div class="publicity"></div>
+    </section>
     <footer>
+      <div class="bigBox">
         <div class="footer-item">
-            <h3>About Us</h3>
-            <p>Mision</p>
-            <p>Vision</p>
+          <h3>About Us</h3>
+          <ul>
+         <li><a href="">Mision</a></li>
+         <li><a href="">Vision</a></li>
+        </ul>
         </div>
         <div class="footer-item">
-            <h3>Foro</h3>
-            <p>Topics</p>
-            <p>Learning</p>
+          <h3>Foro</h3>
+            <li><a href="">Topics</a></li>
+            <li><a href="">Learning</a></li>
         </div>
         <div class="footer-item">
-            <h3>Gallery</h3>
-            <p>Album</p>
-            <p>Bands</p>
+          <h3>Gallery</h3>
+          <li><a href="">Album</a></li>
+          <li><a href="">Bands</a></li>
         </div>
         <div class="footer-item">
-            <h3>Support</h3>
-            <a href="mailto:Nosotros@miStartUp.com">Nosotros@miStartUp.com</a>
-            
+          <h3>Support</h3>
+          <a href="mailto:Nosotros@miStartUp.com">Nosotros@miStartUp.com</a>
         </div>
         <div class="footer-item">
-            <h3>Contac Us</h3>
-            <span class="social"><a href="" target="_blank"></a></span>
-            <span class="social"><a href="" target="_blank"></a></span>
-            <span class="social"><a href="" target="_blank"></a></span>
-            <span class="social"><a href="" target="_blank"></a></span>
-            
+          <h3>Contac Us</h3>
+          <a href=""><img class="social" src="icon/" alt=""></a>
+          <a href=""><img class="social" src="" alt=""></a>
+          <a href=""><img class="social" src="" alt=""></a>
+          <a href=""><img class="social" src="" alt=""></a>
         </div>
+      </div>
 
-        <hr>
+      <hr />
+      <div class="terms">
         <p>Copyright © 2021 all rights reserved</p>
         <a href="">Terms</a>
         <a href="">Privacy Policy</a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
