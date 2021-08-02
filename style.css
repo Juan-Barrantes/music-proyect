@@ -10,17 +10,18 @@ header div{
 header div ul.navBar{
     display: flex;
     justify-content: center;
-    background-color: rgba(68, 56, 56, 0.835);
+    /* background-color: rgba(68, 56, 56, 0.835); */
     border-radius: 8px;
     /* width:240px ; */
 }
 header div ul.navBar li{
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     list-style: none;
+    font-size:  18px;
     /* display: block;  */
 }
 header div ul a{
-    color: whitesmoke;
+    color: black;
 }
 header div ul a.home{
     border-bottom: 2px solid orange;
@@ -31,35 +32,86 @@ header div ul.navBar a:hover{
 header div ul.navBar li a{
     text-decoration: none; 
 }
+
 main{
     display: flex;
 }
 main aside {
-    border: 1px solid red;
-    
-}
-main aside ul{
     margin: 0px;
     padding: 0px;
-    
+    position:absolute ;
+    z-index: 100;
+    width: 15%;
 }
-main aside ul li{
+main aside a{
+    text-decoration: none;
+    color: black;
+}
+main aside h3{
     list-style: none;
     margin: 10px;
     border: 1px solid rgb(165, 165, 168);
     background-color: aliceblue;
     width: 100%;
     margin: 0;
-    padding: 10px;
+    padding: 20px 15px;
+    font-size: 25px;
+    margin: auto;
+    font-weight: normal;
 }
-main aside ul li:hover{
+main aside h3:hover{
     background-color: rgb(63, 60, 60);
     color: white;
+    transition: 0.8s;
 }
 main img{
-    width:2000px;
-    height: 296px;
+    width:85%;
+    left: 15%;
+    height: 490px;
+    position: relative;
+    z-index: 50;
+    border: 1ps solid red;
 }
 
+footer .bigBox{
+    display: flex;
+    justify-content: space-between;
+}
+footer .bigBox .footer-item{
+    /* border: 1px solid red; */
+    width: 19%;
+}
+footer .bigBox .footer-item {
+    padding: 5px 30px;
+}
+footer .bigBox .footer-item h3{
+    margin: 0;
+    padding: 0;
+}
+footer .bigBox .footer-item ul{
+    margin: 0;
+    padding: 0;  
+}
+footer .bigBox .footer-item li{
+    list-style: none;
+}
+footer .bigBox .footer-item a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: normal;
+}
+footer .bigBox .footer-item a:hover{
+    text-decoration: underline;
+    
+}
+footer .bigBox .footer-item img.social{
+    width: 10px;
+    height: 10px;
+}
+footer .terms{
+    display: flex;
+    justify-content: space-;
+}
 
 
